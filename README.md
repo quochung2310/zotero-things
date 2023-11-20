@@ -25,4 +25,6 @@ I have add these code to to search an article in Researchgate.
 # Edit extensions.zotero.findPDFs.resolvers
 Edit --> Preferrences --> Advanced --> Config Editor --> extensions.zotero.findPDFs.resolvers  
 Copy and paste:  
-'{ "name":"Sci-Hub", "method":"GET", "url":"https://sci-hub.se/{doi}", "mode":"html", "selector":"#pdf", "attribute":"src", "automatic":true }'
+```
+{ "name":"Sci-Hub", "method":"GET", "url":"https://sci-hub.se/{doi}", "mode":"html", "selector":"#pdf", "attribute":"src", "automatic":true }
+```
