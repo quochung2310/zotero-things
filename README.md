@@ -1,8 +1,8 @@
 # zotero-things
-Something related to Zotero.
-This is the place I upload or writing code for personal use in case of Zotero, a citation manager.
-These file may be collected elsewhere on the Internet, and I have made some modifications for personal usage.
-Please feel free to use them, if you like!
+Something related to Zotero.  
+This is the place I upload or writing code for personal use in case of Zotero, a citation manager.  
+These file may be collected elsewhere on the Internet, and I have made some modifications for personal usage.  
+Please feel free to use them, if you like!  
 
 # engine.json
 I have add these code to to search an article in Researchgate.
@@ -22,3 +22,7 @@ I have add these code to to search an article in Researchgate.
 		"_iconSourceURI": "http://www.researchgate.net/favicon.ico"
 	},
 	
+# Edit extensions.zotero.findPDFs.resolvers
+Edit --> Preferrences --> Advanced --> Config Editor --> extensions.zotero.findPDFs.resolvers  
+Copy and paste:  
+'{ "name":"Sci-Hub", "method":"GET", "url":"https://sci-hub.se/{doi}", "mode":"html", "selector":"#pdf", "attribute":"src", "automatic":true }'
